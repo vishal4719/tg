@@ -1,0 +1,79 @@
+/* FileUpload.css */
+
+.file-upload {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #ffffff; /* White background for formality */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 8px; /* Rounded corners for a professional look */
+  padding: 30px;
+  text-align: center;
+  border: 1px solid #e0e0e0; /* Light border for clean separation */
+}
+
+.file-upload h3 {
+  font-size: 1.8rem;
+  color: #2c3e50; /* Dark gray/blue to match the dashboard */
+  margin-bottom: 20px;
+  font-family: "Arial", sans-serif; /* Same font as the dashboard */
+}
+
+.file-upload form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.file-upload input[type="file"] {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc; /* Light border for formality */
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 300px;
+  background-color: #f9f9f9; /* Light background for the input */
+}
+
+.file-upload button {
+  background-color: #34495e; /* Formal dark blue/gray */
+  color: white;
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.file-upload button:hover {
+  background-color: #2c3e50; /* Darker shade on hover */
+}
+
+.file-upload button:active {
+  background-color: #1a242f; /* Darker shade on active */
+}
+
+.file-upload p {
+  font-size: 1rem;
+  color: red; /* Error message in red */
+}
+
+@media (min-width: 768px) {
+  .file-upload {
+    padding: 40px;
+  }
+
+  .file-upload h3 {
+    font-size: 2rem;
+  }
+
+  .file-upload input[type="file"] {
+    font-size: 1.1rem;
+  }
+
+  .file-upload button {
+    font-size: 1.3rem;
+  }
+}
